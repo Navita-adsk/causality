@@ -5,13 +5,14 @@ This repository implements an end-to-end causal discovery and causal inference p
 The implementation follows a structured causal workflow: data preprocessing, feature engineering, causal graph discovery, effect estimation, and robustness validation.
 
 📂 Repository Structure
-CAUSALITY/
-│── src/
-│   ├── cm1.csv
-│   ├── nasa_kaggle_col_mapping.csv
-│   ├── Step_1_Causal discovery_NASA dataset.ipynb
-│   ├── Step_2_Causal inference.ipynb
-│── README.md
+
+CAUSALITY
+    src/
+        cm1.csv
+        nasa_kaggle_col_mapping.csv
+        Step_1_Causal discovery_NASA dataset.ipynb
+        Step_2_Causal inference.ipynb
+    README.md
 
 Key Components
 ------------------------------------------------------------------------------------------------------
