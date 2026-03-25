@@ -5,18 +5,14 @@ This repository presents an end-to-end causal analysis pipeline for software def
 The workflow integrates **causal discovery (NOTEARS)** and **causal inference (DoWhy)** within a structured, reproducible framework.
 
 ---
-
 ## 📂 Repository Structure
 
-CAUSALITY/
-│
-├── src/
-│   ├── cm1.csv
-│   ├── nasa_kaggle_col_mapping.csv
-│   ├── Step_1_Causal_discovery_NASA_dataset.ipynb
-│   └── Step_2_Causal_inference.ipynb
-│
-└── README.md
+- `src/` – Data and notebooks
+  - `cm1.csv` – NASA dataset  
+  - `nasa_kaggle_col_mapping.csv` – Feature mapping  
+  - `Step_1_causal_discovery_NASA_dataset.ipynb` – Causal graph learning  
+  - `Step_2_causal_inference.ipynb` – Effect estimation  
+- `README.md` – Project documentation
 
 ---
 
@@ -148,10 +144,3 @@ Execute notebooks in order:
 - Findings should be interpreted as **data-driven causal hypotheses**, not definitive truths  
 
 ---
-
-## 📌 Future Work
-
-- Incorporate additional datasets (e.g., other NASA projects)  
-- Explore nonlinear causal models  
-- Integrate domain priors more explicitly  
-- Extend to time-dependent causal analysis  
