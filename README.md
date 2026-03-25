@@ -7,12 +7,12 @@ The implementation follows a structured causal workflow: data preprocessing, fea
 📂 Repository Structure
 
 CAUSALITY
-    src/
-        cm1.csv
-        nasa_kaggle_col_mapping.csv
-        Step_1_Causal discovery_NASA dataset.ipynb
-        Step_2_Causal inference.ipynb
-    README.md
+src
+    cm1.csv
+    nasa_kaggle_col_mapping.csv
+    Step_1_Causal discovery_NASA dataset.ipynb
+    Step_2_Causal inference.ipynb
+README.md
 
 Key Components
 ------------------------------------------------------------------------------------------------------
